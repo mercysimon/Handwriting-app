@@ -14,7 +14,7 @@ import json
 
 import tensorflow as tf
 from tensorflow import keras
-model=keras.models.load_model(os.path.join("./dnn/",r'\saved_model.pb'))
+model=keras.models.load_model(r'C:\Users\MERCY SIMON\Handwriting ver\alexnetcustom10writes\alexnetcustom10writes\saved_model.pb'))
 
 import cv2
 import numpy as np
@@ -22,7 +22,6 @@ from numpy import random
 import matplotlib.pyplot as plt
 from keras.preprocessing import image
 from PIL import Image
-
 edged_image=""
 iimg2=""
 lst=[]
