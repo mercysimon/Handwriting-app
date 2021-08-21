@@ -14,7 +14,7 @@ import json
 
 import tensorflow as tf
 from tensorflow import keras
-model=keras.models.load_model('saved_model.pb')
+model=keras.models.load_model('/app/saved_model.pb')
 
 import cv2
 import numpy as np
