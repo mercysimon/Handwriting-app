@@ -14,7 +14,7 @@ import json
 
 import tensorflow as tf
 from tensorflow import keras
-model=keras.models.load_model(r'\app\saved_model.pb')
+model=keras.models.load_model(r'cd\C:\Users\MERCY SIMON\Handwriting ver\alexnetcustom10writes\alexnetcustom10writes')
 
 import cv2
 import numpy as np
