@@ -14,7 +14,7 @@ import json
 
 import tensorflow as tf
 from tensorflow import keras
-model=keras.models.load_model(r'/app/.heroku/saved_model.pb')
+model=keras.models.load_model(r'app\alexnetcustom10writes')
 
 import cv2
 import numpy as np
